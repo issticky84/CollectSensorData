@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity"
+    tools:deviceIds="wear_square" android:padding="12dp">
+
+    <!--
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp" android:text="89" android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+
+
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Mode" android:layout_marginTop="12dp"/>
+        -->
+
+    <TextView
+        android:id="@+id/sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Data" />
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Start "
+        android:id="@+id/sensorButton"
+        android:onClick="Start" />
+    />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="100dp"
+        android:text="Stop "
+        android:id="@+id/sensorButton2"
+        android:onClick="Stop" />
+    />  -->
+
+    <Button android:id="@+id/startS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startService"
+        android:onClick="startS_1"
+        />
+    <Button android:id="@+id/stopS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stopService"
+        android:onClick="stopS_l"
+        />
+
+</LinearLayout>
